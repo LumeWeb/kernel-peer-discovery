@@ -69,6 +69,11 @@ async function handleDiscover(aq: ActiveQuery) {
     return;
   }
 
+  if (aq.callerInput.pubkey.length !== 32) {
+    aq.reject("pubkey must be 32 bytes");
+    return;
+  }
+
   if (
     "options" in aq.callerInput &&
     typeof aq.callerInput.options !== "object"
