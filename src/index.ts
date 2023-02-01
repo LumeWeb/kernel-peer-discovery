@@ -37,6 +37,7 @@ async function handleRegisterSource(aq: ActiveQuery): Promise<void> {
   }
 
   discovery.registerSource(name, wrapSourceModule(aq.domain));
+  aq.respond();
 }
 
 function handleRemoveSource(aq: ActiveQuery): void {
