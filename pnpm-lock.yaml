@@ -9,6 +9,7 @@ specifiers:
   cli-progress: ^3.11.2
   esbuild: ^0.17.0
   libkmodule: ^0.2.46
+  prettier: ^2.8.3
   read: ^2.0.0
   typescript: ^4.9.4
 
@@ -23,6 +24,7 @@ devDependencies:
   '@types/read': 0.0.29
   cli-progress: 3.11.2
   esbuild: 0.17.2
+  prettier: 2.8.3
   read: 2.0.0
   typescript: 4.9.4
 
@@ -533,6 +535,12 @@ packages:
 
   /post-me/0.4.5:
     resolution: {integrity: sha512-XgPdktF/2M5jglgVDULr9NUb/QNv3bY3g6RG22iTb5MIMtB07/5FJB5fbVmu5Eaopowc6uZx7K3e7x1shPwnXw==}
+    dev: true
+
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /proper-lockfile/2.0.1:
