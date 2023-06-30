@@ -12,7 +12,7 @@
                 "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
             },
             "devDependencies": {
-                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.18",
+                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.19",
                 "@rollup/plugin-typescript": "^11.1.2",
                 "presetter": "*"
             }
@@ -2191,9 +2191,9 @@
             }
         },
         "node_modules/@lumeweb/presetter-kernel-module-preset": {
-            "version": "0.1.0-develop.18",
-            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.18.tgz",
-            "integrity": "sha512-nEfY5F2wrGgojh37O1E1ObbLYYfOeFscZzc1LqsPCogMahQ2Gu6P0/GATMAENbSwlODvcJjkwRyofIHQGXrcqQ==",
+            "version": "0.1.0-develop.19",
+            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.19.tgz",
+            "integrity": "sha512-b5ilJV2ikVWAFlp1QtndwEwYAl+GDFCB/9s/Qaxo/C86viQvRWlsbRRVHrrM/YJ9L97ez1sImsAyef4JJmDhTw==",
             "dev": true,
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",
