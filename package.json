@@ -14,7 +14,7 @@
     "readme": "ERROR: No README data found!",
     "_id": "@lumeweb/kernel-peer-discovery@0.1.0",
     "devDependencies": {
-        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.19",
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.20",
         "@rollup/plugin-typescript": "^11.1.2",
         "presetter": "*"
     },
