@@ -6,12 +6,7 @@ on:
             - master
             - develop
             - develop-*
-    workflow_dispatch:
-        inputs:
-            debug_enabled:
-                description: Debug
-                type: boolean
-                default: false
+
 jobs:
     main:
         uses: lumeweb/github-node-deploy-workflow/.github/workflows/main.yml@master
