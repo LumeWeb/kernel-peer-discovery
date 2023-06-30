@@ -3,24 +3,19 @@
     "version": "0.1.0",
     "type": "module",
     "scripts": {
-        "test": "jest",
-        "build-script": "tsc --project tsconfig.build.json && mv dist-build/build.js dist-build/build.mjs",
-        "compile": "pnpm run build-script && node build.js",
-        "build": "pnpm run compile && node ./dist-build/build.mjs dev"
+        "prepare": "presetter bootstrap",
+        "build": "run build",
+        "semantic-release": "semantic-release"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "@lumeweb/kernel-peer-discovery@0.1.0",
+    "devDependencies": {
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.18",
+        "@rollup/plugin-typescript": "^11.1.2",
+        "presetter": "*"
     },
     "dependencies": {
-        "@lumeweb/peer-discovery": "git+https://git.lumeweb.com/LumeWeb/peer-discovery.git",
-        "libkmodule": "^0.2.46"
-    },
-    "devDependencies": {
-        "@scure/bip39": "^1.1.0",
-        "@skynetlabs/skynet-nodejs": "^2.9.0",
-        "@types/node": "^18.11.18",
-        "@types/read": "^0.0.29",
-        "cli-progress": "^3.11.2",
-        "esbuild": "^0.17.0",
-        "prettier": "^2.8.3",
-        "read": "^2.0.0",
-        "typescript": "^4.9.4"
+        "@lumeweb/libkernel": "^0.1.0-develop.6",
+        "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
     }
 }

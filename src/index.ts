@@ -1,8 +1,8 @@
-import { addHandler, handleMessage } from "libkmodule";
-import type { ActiveQuery } from "libkmodule";
-import { PeerDiscovery } from "@lumeweb/peer-discovery";
-import type { PeerSource, Peer } from "@lumeweb/peer-discovery";
-import { callModule, logErr } from "libkmodule";
+import { addHandler, handleMessage } from "@lumeweb/libkernel/module";
+import type { ActiveQuery } from "@lumeweb/libkernel/module";
+import { PeerDiscovery } from "@lumeweb/libpeerdiscovery";
+import type { PeerSource, Peer } from "@lumeweb/libpeerdiscovery";
+import { callModule, logErr } from "@lumeweb/libkernel";
 
 onmessage = handleMessage;
 
@@ -85,7 +85,7 @@ async function handleDiscover(aq: ActiveQuery) {
 
   const ret = await discovery.discover(
     aq.callerInput.pubkey,
-    aq.callerInput.options
+    aq.callerInput.options,
   );
 
   aq.respond(ret);
