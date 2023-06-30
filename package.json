@@ -2,6 +2,10 @@
     "name": "@lumeweb/kernel-peer-discovery",
     "version": "0.1.0",
     "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/kernel-peer-discovery.git"
+    },
     "scripts": {
         "prepare": "presetter bootstrap",
         "build": "run build",
