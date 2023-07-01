@@ -18,7 +18,7 @@
         "presetter": "*"
     },
     "dependencies": {
-        "@lumeweb/libkernel": "^0.1.0-develop.6",
+        "@lumeweb/libkernel": "^0.1.0-develop.9",
         "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
     }
 }

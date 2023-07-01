@@ -8,7 +8,7 @@
             "name": "@lumeweb/kernel-peer-discovery",
             "version": "0.0.2-develop.1",
             "dependencies": {
-                "@lumeweb/libkernel": "^0.1.0-develop.6",
+                "@lumeweb/libkernel": "^0.1.0-develop.9",
                 "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
             },
             "devDependencies": {
@@ -2116,12 +2116,23 @@
             }
         },
         "node_modules/@lumeweb/libkernel": {
-            "version": "0.1.0-develop.6",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libkernel/-/libkernel-0.1.0-develop.6.tgz",
-            "integrity": "sha512-9zd6zX96yLQ4xEmoqWpcUzVwODOG7qGU4IRyxsQZkVZXdq1asfzOeSspbM3TfrfyyVLyjAcQjOrt5delnH45Xg==",
+            "version": "0.1.0-develop.9",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libkernel/-/libkernel-0.1.0-develop.9.tgz",
+            "integrity": "sha512-izusLjMFaMpsIT4PnnxRQgRM+bKiflaUIB37C82GvfDi7peMeuI2SIK7RW+LdcUOApQA5rXcr0DE6Cj0+FnQZQ==",
             "dependencies": {
                 "@lumeweb/libweb": "0.2.0-develop.20",
-                "eventemitter2": "^6.4.9"
+                "emittery": "^1.0.1"
+            }
+        },
+        "node_modules/@lumeweb/libkernel/node_modules/emittery": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/emittery/-/emittery-1.0.1.tgz",
+            "integrity": "sha512-2ID6FdrMD9KDLldGesP6317G78K7km/kMcwItRtVFva7I/cSEOIaLpewaUb+YLXVwdAp3Ctfxh/V5zIl1sj7dQ==",
+            "engines": {
+                "node": ">=14.16"
+            },
+            "funding": {
+                "url": "https://github.com/sindresorhus/emittery?sponsor=1"
             }
         },
         "node_modules/@lumeweb/libpeerdiscovery": {
@@ -7501,11 +7512,6 @@
             "engines": {
                 "node": ">=6"
             }
-        },
-        "node_modules/eventemitter2": {
-            "version": "6.4.9",
-            "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-6.4.9.tgz",
-            "integrity": "sha512-JEPTiaOt9f04oa6NOkc4aH+nVp5I3wEjpHbIPqfgCdD5v5bUzy7xQqwcVO2aDQgOWhI28da57HksMrzK9HlRxg=="
         },
         "node_modules/eventemitter3": {
             "version": "5.0.1",
