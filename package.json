@@ -13,12 +13,10 @@
     },
     "readme": "ERROR: No README data found!",
     "devDependencies": {
-        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.20",
-        "@rollup/plugin-typescript": "^11.1.2",
-        "presetter": "*"
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.28"
     },
     "dependencies": {
-        "@lumeweb/libkernel": "^0.1.0-develop.9",
+        "@lumeweb/libkernel": "^0.1.0-develop.12",
         "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
     }
 }
