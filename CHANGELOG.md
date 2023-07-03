@@ -1,3 +1,10 @@
+## [0.0.2-develop.4](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.3...v0.0.2-develop.4) (2023-07-02)
+
+
+### Bug Fixes
+
+* add browser flag and ignore node modules for building ([3189956](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/commit/31899560696cfaae5d235ba6b512b3a7ed404656))
+
 ## [0.0.2-develop.3](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.2...v0.0.2-develop.3) (2023-07-01)
 
 ## [0.0.2-develop.2](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.1...v0.0.2-develop.2) (2023-06-30)
