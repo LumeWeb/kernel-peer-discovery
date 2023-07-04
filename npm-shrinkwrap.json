@@ -12,7 +12,7 @@
                 "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
             },
             "devDependencies": {
-                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.29"
+                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.30"
             }
         },
         "node_modules/@aashutoshrathi/word-wrap": {
@@ -2202,9 +2202,9 @@
             }
         },
         "node_modules/@lumeweb/presetter-kernel-module-preset": {
-            "version": "0.1.0-develop.29",
-            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.29.tgz",
-            "integrity": "sha512-rXItaLauKm4FRznEddThaoiooAkNVohqnL40S/qLQaBkohePJbqt4ndqXCOVBWRXE5MFV2ROBjUgpDygaOpw6Q==",
+            "version": "0.1.0-develop.30",
+            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.30.tgz",
+            "integrity": "sha512-BNoaGbj2JfoEv+dmOv0pi7mX3JBkji5vKo0gRTPtmkffyderLwXWaNpCICiRwjez1t1gLq0HJKPZJZ6UfhxcKg==",
             "dev": true,
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",
