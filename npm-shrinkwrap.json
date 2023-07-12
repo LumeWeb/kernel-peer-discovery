@@ -9,7 +9,7 @@
             "version": "0.0.2-develop.5",
             "dependencies": {
                 "@lumeweb/libkernel": "^0.1.0-develop.12",
-                "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1"
+                "@lumeweb/libpeerdiscovery": "^0.1.0-develop.2"
             },
             "devDependencies": {
                 "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.30"
@@ -2136,9 +2136,9 @@
             }
         },
         "node_modules/@lumeweb/libpeerdiscovery": {
-            "version": "0.1.0-develop.1",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libpeerdiscovery/-/libpeerdiscovery-0.1.0-develop.1.tgz",
-            "integrity": "sha512-U+Kfl74Xu2kldHQwRT9Z9CCN2Gk9jASqsFEWv/A0dnFSeCgvO5fgCd3INnY6GsXXCo3bdgRv0ZtmWXbrzivjWg==",
+            "version": "0.1.0-develop.2",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libpeerdiscovery/-/libpeerdiscovery-0.1.0-develop.2.tgz",
+            "integrity": "sha512-eOdcFDPTPKBSulCuj5wlSvq/0ooQ4en7Iix1z3rH1YLSgyS+HDAfkYZGoqtB6AwH+rn0UFBvjHlB1Fds/TpEMQ==",
             "dependencies": {
                 "b4a": "^1.6.4"
             }
