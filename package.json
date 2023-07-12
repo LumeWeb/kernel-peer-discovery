@@ -13,15 +13,10 @@
     },
     "readme": "ERROR: No README data found!",
     "devDependencies": {
-        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.30"
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.43"
     },
     "dependencies": {
-        "@lumeweb/libkernel": "^0.1.0-develop.12",
+        "@lumeweb/libkernel": "^0.1.0-develop.16",
         "@lumeweb/libpeerdiscovery": "^0.1.0-develop.2"
-    },
-    "browser": {
-        "node-fetch": false,
-        "stream": false,
-        "formdata-polyfill": false
     }
 }
