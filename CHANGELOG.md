@@ -1,3 +1,5 @@
+## [0.0.2-develop.11](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.10...v0.0.2-develop.11) (2023-10-13)
+
 ## [0.0.2-develop.10](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.9...v0.0.2-develop.10) (2023-09-04)
 
 ## [0.0.2-develop.9](https://git.lumeweb.com/LumeWeb/kernel-peer-discovery/compare/v0.0.2-develop.8...v0.0.2-develop.9) (2023-09-02)
